@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-import random
+import random #*Uses Random Module.
 i=0
-while(i<=100):
-    n=input("Press 4 to roll the dice: ")
+while(i<=100): #The Program runs while the user has not reached 100.
+    n=input("Press 4 to roll the dice: ") #The user is given a prompt to rollte dice each time.
     if(n==4):
-        r=random.randint(1,6)
-        i=i+r
+        r=random.randint(1,6) #Uses RandInt to choose a random number from 1 t 6(Same application and RahulDice.py).
+        i=i+r #For every chance , the Dice is rolled and the position of the player is determined.
         print("You got :",r)
         print("Your position is: ",i)
-        if (i==3):
+        if (i==3): #Using If else if statements, the ladders and the snakes are inputted into th computer.
             i=34
             print("Congrats! You got a ladder to 34")
         elif (i==8):
@@ -41,7 +41,7 @@ while(i<=100):
         elif (i==93):
         	print("Sorry you got a a snake 64")
         	i=64
-    if (i>=94):
+    if (i>=94): #When the user has reached the positon of 94 or above, the position does not change unless the player has got an exact number to reach th target 100.
         if ((i+r)==100):
             print("Congrats! You've won!")
     	else:
