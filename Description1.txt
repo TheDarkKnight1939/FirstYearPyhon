@@ -1,0 +1,78 @@
+Descriptions 
+
+~RahulDice.py:-
+*Uses Random Module.
+*Choooses a random number from 1-6.
+*Prints the value of the randomly chosen number.
+
+~NumberType.py:-
+*Asks the user to enter a number.
+*using if else-if statements , checks if the number is positive , negaqtive or zero.
+
+~SnakesAndLadders.py
+*Uses Random Module.
+*The Program runs while the user has not reached 100.
+*The user is given a prompt to rollte dice each time.
+*Uses RandInt to choose a random number from 1 t 6(Same application and RahulDice.py).
+*For every chance , the Dice is rolled and the position of the player is determined.
+*Using If else if statements, the ladders and the snakes are inputted into th computer.
+*When the user has reached the positon of 94 or above, the position does not change unless the  player has got an exact number to reach th target 100.
+
+~StonePaperScissors.py
+*Uses Random Module
+*The program gives the program a prompt everytime to run the program.
+*The user is asked to input his choice (A choice between Rock Paper and Scissors).
+*The choice of the computer is taken using the random function.
+*A series of if else-if statements is used to compare the choices of the computer and the player.
+*Based on the comparision, the program displays the result based on the comparison.
+*Another module is included to count the scores of the computer and player based on the if else-if statements used above.
+
+~Mail.py
+*On line 2, it’s the parameters for the Gmail server. First, the server location (or its ip address), then the port to use. If you have an email address from another service, like Yahoo for example, you have to find the corresponding information.
+*On line 4, there’s a security function, needed to connect to the Gmail server. It will protect your password.
+*With refernce to the site -http://naelshiab.com/tutorial-send-email-python/
+
+~Tables.py
+*Uses a FOR loop from 1-10
+*when the number is 1 the program prints the 1's table of 2, 3 ,4 and 5
+the number is increased until it reaches 10
+*Each time the table is printed.
+*Repeated printing shows the series of 2,3,4 and 5's table
+
+~Test.py
+*The program prompts the user to input the score of the student
+*Using if then statements, the program checks the displays the grade of the student
+
+~Greater.py
+*Using a for loop the program inputs 6 numbers in an array
+*Using another for loop, the program checks each element of the array and checks if the number is greater or lesser than 10
+
+~Divisors.py
+*The user is prompted to enter a number
+*Using a for loop from 1 to the entered number , the program checks if the number is a divisor of the main number.
+*Logic of the divisor finding-when the number in the for loop is divided using the mod function and the output is 0 , it is a divisor
+
+~Comparision.py
+*Checks each element of two arrays using a for loop and prints the common elements
+
+~1-100.py
+*Prints numbers from 1-100 and 100-1 using the for loop
+
+~1.py
+*Basic program to show the standard arithmetic operations
+
+~2.py
+*Uses two strings and prints every individual letter of the two strings
+
+~3.py
+*Uses Random Module
+*Choses a random number from 10 to 66
+*Checks if the program is lesser, equal to or greater than 35
+
+
+
+
+  
+
+
+
